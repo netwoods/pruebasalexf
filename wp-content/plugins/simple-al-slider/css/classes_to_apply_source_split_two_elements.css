@@ -1,0 +1,286 @@
+.safari_bug2 {
+
+}
+.simple-al-no-backface {
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+-webkit-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+}
+.simple-al-no-flick-outter {
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+-webkit-perspective: 800px;
+-moz-perspective: 800px;
+-ms-perspective: 800px;
+-o-perspective: 800px;
+perspective: 800px;
+}
+
+.simple_al_slider_outter, .simple-al-no-flick{
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-o-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+-o-transform: translate3d(0,0,0);
+-ms-transform: translate3d(0,0,0);
+transform: translate3d(0,0,0);
+-webkit-perspective: 800px;
+-moz-perspective: 800px;
+-ms-perspective: 800px;
+-o-perspective: 800px;
+perspective: 800px;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+transform-style: preserve-3d;
+}
+
+.no-flick2{
+  -webkit-transform: translateZ(0);
+-webkit-transform-style: preserve-3d;
+}
+.no-flick-simple{
+-webkit-transform-style: preserve-3d;
+}
+.class_for_hide{
+visibility:hidden;
+}
+.no_max_width img
+{
+  max-width: none;
+}
+/********************************/
+.second_split_two_elements_init_first{
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  transform:rotateY(0deg) rotateX(0deg) translateX(0px);
+  -webkit-transform:rotateY(0deg) rotateX(0deg) translateX(0px);
+  -moz-transform:rotateY(0deg) rotateX(0deg) translateX(0px);
+  -o-transform:rotateY(0deg) rotateX(0deg) translateX(0px);
+  -ms-transform:rotateY(0deg) rotateX(0deg) translateX(0px);
+  opacity:1;
+  -khtml-opacity: 1;
+}
+.second_split_two_elements_apply_first_1{
+  transform:scale(0.5);
+  -webkit-transform:scale(0.5);
+  -moz-transform:scale(0.5);
+  -o-transform:scale(0.5);
+  -ms-transform:scale(0.5);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:0;
+  -khtml-opacity: 0;
+}
+/********************************/
+.second_split_one_element_apply_1{
+  transform:scale(0.7) rotateX(0deg);
+  -webkit-transform:scale(0.7) rotateX(0deg);
+  -moz-transform:scale(0.7) rotateX(0deg);
+  -o-transform:scale(0.7) rotateX(0deg);
+  -ms-transform:scale(0.7) rotateX(0deg);
+
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+.second_split_one_element_apply_2{
+  transform:scale(0.7) rotateX(180deg);
+  -webkit-transform:scale(0.7) rotateX(180deg);
+  -moz-transform:scale(0.7) rotateX(180deg);
+  -o-transform:scale(0.7) rotateX(180deg);
+  -ms-transform:scale(0.7) rotateX(180deg);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+/***********************************/
+.second_second_split_one_element_apply_1{
+  transform:scale(0.7);
+  -webkit-transform:scale(0.7);
+  -moz-transform:scale(0.7);
+  -o-transform:scale(0.7);
+  -ms-transform:scale(0.7);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+.second_second_split_one_element_apply_2{
+  transform:scale(0.7) rotateY(180deg);
+  -webkit-transform:scale(0.7) rotateY(180deg);
+  -moz-transform:scale(0.7) rotateY(180deg);
+  -o-transform:scale(0.7) rotateY(180deg);
+  -ms-transform:scale(0.7) rotateY(180deg);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+/***********************************/
+.third_second_split_one_element_apply_1{
+  transform:scale(0.7);
+  -webkit-transform:scale(0.7);
+  -moz-transform:scale(0.7);
+  -o-transform:scale(0.7);
+  -ms-transform:scale(0.7);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+.third_second_split_one_element_apply_2{
+  transform:scale(0.4) skew(20deg, 30deg);
+  -webkit-transform:scale(0.4) skew(20deg, 30deg);
+  -moz-transform:scale(0.4) skew(20deg, 30deg);
+  -o-transform:scale(0.4) skew(20deg, 30deg);
+  -ms-transform:scale(0.4) skew(20deg, 30deg);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+.third_second_split_one_element_apply_3{
+  transform:scale(0.01);
+  -webkit-transform:scale(0.01);
+  -moz-transform:scale(0.01);
+  -o-transform:scale(0.01);
+  -ms-transform:scale(0.01);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:0;
+  -khtml-opacity: 0;
+}
+/***********************************/
+.fourth_second_split_one_element_apply_1{
+  transform:scale(0.7);
+  -webkit-transform:scale(0.7);
+  -moz-transform:scale(0.7);
+  -o-transform:scale(0.7);
+  -ms-transform:scale(0.7);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+.fourth_second_split_one_element_apply_2{
+  transform:scale(0.7) translateX(50px);
+  -webkit-transform:scale(0.7) translateX(50px);
+  -moz-transform:scale(0.7) translateX(50px);
+  -o-transform:scale(0.7) translateX(50px);
+  -ms-transform:scale(0.7) translateX(50px);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:0;
+  -khtml-opacity: 0;
+}
+/***********************************/
+.fifth_second_split_one_element_apply_1{
+  transform:scale(0.7);
+  -webkit-transform:scale(0.7);
+  -moz-transform:scale(0.7);
+  -o-transform:scale(0.7);
+  -ms-transform:scale(0.7);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:1;
+  -khtml-opacity: 1;
+}
+.fifth_second_split_one_element_apply_2{
+  transform:scale(0.7) translateY(50px);
+  -webkit-transform:scale(0.7) translateY(50px);
+  -moz-transform:scale(0.7) translateY(50px);
+  -o-transform:scale(0.7) translateY(50px);
+  -ms-transform:scale(0.7) translateY(50px);
+  transform-origin:50% 50% 0;
+  -webkit-transform-origin:50% 50% 0;
+      -moz-transform-origin : 50% 50% 0;
+      -o-transform-origin : 50% 50% 0;
+      -ms-transform-origin : 50% 50% 0;
+  opacity:0;
+  -khtml-opacity: 0;
+}
+/***********************************/
+.for_safari_only {
+/*
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+  filter: alpha(opacity=0);
+
+  -moz-opacity: 0;
+*/
+  /* Safari 1.x */
+  -khtml-opacity: 0;
+
+  /* Good browsers */
+  opacity: 0;
+}
+
+/***********************************/

@@ -1,0 +1,1 @@
+  <div id="tabs-5" style="text-align:left;width:97%;" class="welcome-panel">

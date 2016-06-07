@@ -1,0 +1,99 @@
+.introAndByline h2{
+font-size:1em;
+}
+.sidebar-220 img {
+    width: 30%;
+    float: right;
+    margin-bottom: 5%;
+}
+.first_text {
+    margin-top: 1%;
+    float: left;
+    width: 70%;
+    line-height: 30px;
+}
+.pullquote h1{
+font-size: 30px;
+    line-height: 38px;
+    color: #9ca594;
+    margin-left: -60px;
+    width: 310px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    float: left;
+    font-weight: 300;
+    position: relative;
+    overflow: hidden;
+    clear: left;
+    padding-top: 20px;
+}
+.pullquote .social ul li a {
+    width: 36px;
+    height: 36px;
+    display: block;
+    text-indent: -10000px;
+    background-image: url(http://www.strategy-business.com/media/image/sb-t-pullquote-share-icons.png);
+    background-repeat: no-repeat;
+    margin-left: 8px;
+    position: relative;
+}
+.pullquote .social ul li {
+    float: left;
+}
+.pullquote .social li {
+    margin: 0px !important;
+    list-style-type: none !important;
+}
+.pullquote .social ul li.twitter a {
+    background-position: 0px 0px;
+}
+.social ul, .pullquote .social li {
+    margin: 0px !important;
+    list-style-type: none !important;
+}
+.pullquote .social ul li.facebook a {
+    background-position: -46px 0px;
+}
+.pullquote .social {
+    line-height: 36px;
+    font-size: 16px;
+    width: 50%;
+    float: left;
+    margin-right: 50%;
+    right: 100px;
+    position: relative;
+}
+.second_text{
+        line-height: 30px;
+    float: right;
+    width: 60%;
+    margin-top: 10%;
+}
+.third_text{
+          line-height: 30px;
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+}
+.four_text{
+     line-height: 30px;
+    width: 100%;
+    float: right;
+    margin-top: 5%;
+}
+.five_text{
+  line-height: 30px;
+    float: right;
+    width: 60%;
+    margin-top: 5%;
+}
+.pullquote .social ul li.googleplus a {
+    background-position: -138px 0px;
+}
+#sb-adisplay .content, #sb-adisplay h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+#main-navigation .main-nav ul li{
+background-color:white!important;
+}
+

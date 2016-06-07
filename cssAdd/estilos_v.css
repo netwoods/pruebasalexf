@@ -1,0 +1,21 @@
+.breadcrumb-list {
+
+  
+    background: url(/wp-content/uploads/2016/03/franja-2.png);
+  
+}
+.divImgCenterBloqueInt h3 {
+    color: #00C53E;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em!important;
+}
+
+#accordions-147 .ui-accordion-header-active {
+    background: #69048A!important;
+}
+#accordions-147 .accordion-icons {
+    color:black!important;
+}
+.accordions .accordion-icons.left{
+float:right!important;
+}
